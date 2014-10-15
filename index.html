@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>On-scroll Show Hide Menu</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="rn-header" id="header">
+
+        </div>
+        <div id="content">
+            <h1>GPU Accelerated Mobile Header</h1>
+
+            <h3>Some Background</h3>
+            <p>
+                Mobile browsers do not have a consistent fixed positioning support. Older mobile browser versions like default browsers on iOS 4 and earlier, Android 2.3 and earlier, WP 7 and Blackberry 5 for example, either completely ignore the <code>position: fixed</code> attribute and render the element with <code>position: static</code> or even if the browser supports <code>position: fixed</code> the performance is jittery.
+            </p>
+            <p>
+                Also, one must consider the fact that the viewport space available on a mobile device is very limited. Thus, the decision of having a fixed position header (or a footer) should be taken only if it is essential for a better user experience. If not, then the headers should be replaced with statically positioned elements that will scroll normally with the rest of the content.
+            </p>
+            <h3>Alternate Solution</h3>
+            <p>
+                The header presented here is similar to the address bar that you see in modern day mobile phone browsers or even some apps. If the user is scrolling down in a page, he intends to read more content. In that case, the header slides up and entire screen is available for the content. If the user is scrolling up, in most of the cases he intends to get back to the top or to the menu. In that case, the header slides back in to the view, as if it were a fixed position element. 
+            </p>
+            <p>
+                Go scroll up and down and see how this menu works. You can view the project on github here.
+            </p>
+        </div>
+
+        <script src="plugin.js" type="text/javascript"></script>
+    </body> 
+</html>
